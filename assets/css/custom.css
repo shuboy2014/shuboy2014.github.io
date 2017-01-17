@@ -1,0 +1,17 @@
+/**
+* Created by shubham on 17/1/17.
+*/
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: 'Lora';
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
