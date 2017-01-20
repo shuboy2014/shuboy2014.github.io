@@ -4,4 +4,10 @@
 
 $(document).ready(function () {
     
+    $('.img-bounce').hover(function () {
+        $(this).attr('class', 'img-bounce animated bounce infinite');
+    }, function () {
+        $(this).attr('class', 'img-bounce');
+    });
+
 });
