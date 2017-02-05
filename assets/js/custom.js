@@ -10,6 +10,13 @@ $(document).ready(function () {
         $(this).attr('class', 'img-bounce');
     });
 
+    $(function(){
+        $("#text").typed({
+            strings: ["Shubham Aggarwal", "Tech Enthusiast | Programmer | Developer"],
+            typeSpeed: 0
+        });
+    });
+
     particlesJS("particles-js", {
         "particles": {
             "number": {
